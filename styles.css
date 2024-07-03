@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+.neon-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.neon-text {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 
+        0 0 5px  #ee5bd0,
+        0 0 10px #ee5bd0,
+        0 0 20px #ee5bd0,
+        0 0 40px #ee5bd0,
+        0 0 80px #ee5bd0;
+    margin: 0;
+}
+
+.neon-nav {
+    margin-top: 20px;
+}
+
+.neon-link {
+    color: #00fff0;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.neon-link:hover {
+    color: #fff;
+    text-shadow: 
+         0 0 5px #ee5bd0,
+        0 0 10px #ee5bd0,
+        0 0 20px #ee5bd0,
+        0 0 40px #ee5bd0;
+}
